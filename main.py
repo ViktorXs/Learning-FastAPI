@@ -53,4 +53,3 @@ async def get_site_owner():
 async def get_site_owner(site_owner_id: int, site_owner_name: str):
     site_owner.update({site_owner_id: site_owner_name})
     return site_owner
-
